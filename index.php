@@ -8,24 +8,34 @@
 		
         <link rel="stylesheet" href="asset/css/bootstrap.min.css" rel="stylesheet"  type="text/css">
 		<link rel="stylesheet" href="asset/general.css" rel="stylesheet"  type="text/css">
-        <script src="asset/jquery-2.2.3.min.js"></script>
+        <script src="asset/jquery.min.js"></script>
         <script src="asset/js/bootstrap.min.js"></script>
     </head>
 
-    <body>
-	
-		<div class="container">
-			<div class="page-header">
-			  <h1>This is a header <small>Subtext for header</small></h1>
-			</div>	
-			<ul class="nav nav-tabs">
-			  <li class="active"><a href="#">Home</a></li>
-			  <li><a href="#">Menu 1</a></li>
-			  <li><a href="#">Menu 2</a></li>
-			  <li><a href="#">Menu 3</a></li>
-			</ul>	
+<body>
 
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>My First Bootstrap Page</h1>
+			<p>Resize this responsive page to see the effect!</p>
 		</div>
-		
-    </body>
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="sidenav">
+						<a href="#about">About</a>
+						<a href="#services">Services</a>
+						<a href="#clients">Clients</a>
+						<a href="#contact">Contact</a>
+					</div>
+				</div>
+				<div class="col-sm-9">.col-sm-4</div>
+			</div> 
+		</div>
+		<footer>
+			<p align="right">Footer Text</p>
+		</footer>
+	</div>
+
+</body>
 </html>
