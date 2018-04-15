@@ -22,7 +22,7 @@
 
 
     <div class="row-fluid">
-      Selamat datang
+      ini pinjaman....
     </div>
 
     <?php include("./template/footer.php"); ?>

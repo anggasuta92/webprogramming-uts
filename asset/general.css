@@ -2,7 +2,8 @@
     footer {
       background-color: #555;
       color: white;
-      padding: 15px;
+      height: 20px;
+      /*padding: 15px;*/
     }
 
     .container{
@@ -12,3 +13,17 @@
     .page-header{
       height: 150px !important;
     }
+
+    * {
+      border-radius: 0 !important;
+      -moz-border-radius: 0 !important;
+    }
+
+    body {
+      background: url('images/bg.jpg') !important;
+      background-repeat: repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }

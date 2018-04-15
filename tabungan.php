@@ -22,7 +22,7 @@
 
 
     <div class="row-fluid">
-      Selamat datang
+      ini tabungan...
     </div>
 
     <?php include("./template/footer.php"); ?>
