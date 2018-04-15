@@ -1,41 +1,14 @@
-	body{
-		background-image: url("paper.gif") !important ;
-		margin: 0;
-	}
-
-	.jumbotron {
-		border-radius: 0px !important; 
-		margin-bottom: 0px !important;
-	}
-	
-	/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
-    
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
       color: white;
-      padding: 3px;
+      padding: 15px;
     }
-    
-	.sidenav {
-		/*position: fixed;*/
-		z-index: 1;
-		top: 0;
-		left: 0;
-		background-color: #111;
-		overflow-x: hidden;
-		padding-top: 20px;
-	}
-	
-	.sidenav a {
-		padding: 6px 8px 6px 16px;
-		text-decoration: none;
-		font-size: 14px;
-		color: #818181;
-		display: block;
-	}
 
-	.sidenav a:hover {
-		color: #f1f1f1;
-	}	
+    .container{
+      width: 1000px !important;
+    }
+
+    .page-header{
+      height: 150px !important;
+    }
