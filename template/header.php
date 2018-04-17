@@ -1,4 +1,4 @@
-<div class="page-header">
-    <strong>Example page header</strong><br/>
-    <small>Subtext for header</small>
-</div>
+<div class="jumbotron">
+    <h1>Bootstrap Tutorial</h1>      
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+</div>   

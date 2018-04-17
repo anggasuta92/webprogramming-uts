@@ -1,29 +1,4 @@
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      height: 20px;
-      /*padding: 15px;*/
-    }
-
-    .container{
-      width: 1000px !important;
-    }
-
-    .page-header{
-      height: 150px !important;
-    }
-
-    * {
-      border-radius: 0 !important;
-      -moz-border-radius: 0 !important;
-    }
-
-    body {
-      background: url('images/bg.jpg') !important;
-      background-repeat: repeat;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-  }
+.page-footer{
+  bottom: 0;
+  margin-bottom: 0 !important;
+}

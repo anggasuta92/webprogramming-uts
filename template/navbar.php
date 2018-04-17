@@ -1,38 +1,14 @@
-<?php
-    $mn0 = "";
-    $mn1 = "";
-    $mn2 = "";
-    $mn3 = "";
-    if(isset($_GET['mn'])){
-        switch($_GET['mn']){
-            case 1:
-                $mn1 = "active";
-                break;
-            case 2:
-                $mn2 = "active";
-                break;
-            case 3:
-                $mn3 = "active";
-                break;
-            default:
-                $mn0 = "active"; 
-                break;
-        }
-    }else{
-        $mn0 = "active"; 
-    }
-?>
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="./" class="brand-logo">Bank KU!</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="./tabungan.php" >Tabungan</a></li>
+        <li><a href="./pinjaman.php">Pinjaman</a></li>
+        <li><a href="./tentang.php">Tentang Kami</a></li>
+      </ul>
 
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-    <div class="navbar-header">
-        <a class="navbar-brand" href="./">Bank KRoot</a>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-        <li class="<?php echo $mn0; ?>"><a href="./">Home</a></li>
-        <li class="<?php echo $mn1; ?>"><a href="./tabungan.php?mn=1">Tabungan</a></li>
-        <li class="<?php echo $mn2; ?>"><a href="./pinjaman.php?mn=2">Pinjaman</a></li>
-        <li class="<?php echo $mn3; ?>"><a href="./tentang.php?mn=3">Tentang Kami</a></li>
-    </ul>
-    </div>
-</nav>
+  </nav>
