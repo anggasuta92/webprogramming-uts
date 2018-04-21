@@ -2,17 +2,19 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Biografi Perusahan</h5>
-                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+                    <h5 class="white-text">Profil Perusahan</h5>
+                    <p class="grey-text text-lighten-4">
+                        Bank KU! merupakan salah satu Bank Perkreditan Rakyat milik swasta yang berdiri dari tahun 1980 yang didirikan oleh beberapa orang yang sudah sangat berpengalaman dalam bidang perbankan. Dengan mengedepankan mutu dan kualitas layanan kepada seluruh nasabah.
+                    </p>
                 </div>
                 <div class="col l3 s12">
-                    <h5 class="white-text">Rekan..</h5>
+                    <h5 class="white-text">Relasi</h5>
                     <img src="images/bi.png" width="100px" height="40px" /><br/>
                     <img src="images/OJK_Logo.png" width="100px" height="40px" /><br/>
                     <img src="images/PT-PNM.png" width="100px" height="40px" />
                 </div>
                 <div class="col l3 s12">
-                    <h5 class="white-text">Bergabung dengan kami..</h5>
+                    <h5 class="white-text">Bergabung dengan kami</h5>
                     <ul>
                     <li><a class="white-text" href="#!"><i class="fa fa-facebook"></i> Facebook</a></li>
                     <li><a class="white-text" href="#!"><i class="fa fa-twitter"></i> Twitter</a></li>

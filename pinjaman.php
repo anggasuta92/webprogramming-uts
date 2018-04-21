@@ -1,36 +1,78 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-		<title>Bank</title>
-		
-        <link rel="stylesheet" href="asset/css/bootstrap.min.css" rel="stylesheet"  type="text/css">
-		<link rel="stylesheet" href="asset/general.css" rel="stylesheet"  type="text/css">
-        <script src="asset/jquery.min.js"></script>
-        <script src="asset/js/bootstrap.min.js"></script>
-    </head>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <?php include("./template/title.php"); ?>
 
-
+  <!-- CSS  -->
+  <link href="./asset/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./asset/fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 <body>
 
-  <div class="container">
-
     <?php include("./template/navbar.php"); ?>
-    <?php include("./template/header.php"); ?>
 
 
-    <div class="row-fluid">
-      ini pinjaman....
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <nav>
+                    <div class="nav-wrapper">
+                        <div class="col s12">
+                            <a href="#!" class=""><i class="fa fa-book"></i> <b>Pinjaman</b></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text" style="height:280px;">
+                            <span class="card-title"><i class="fa fa-chevron-circle-right"></i> Bunga Tetap</span>
+                            <p align="justify">
+                            Kami menyediakan layanan pinjaman dengan suku bunga tetap <b>0,8%</b> per bulan. Bunga tetap adalah cicilan bunga dan cicilan pokoknya setiap bulannya sama. Cicilan anda tidak akan berubah sampai jatuh tempo pinjaman.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="./pinjaman-tetap.php"><i class="fa fa-check-square-o"></i> Simulasi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text" style="height:280px;">
+                            <span class="card-title"><i class="fa fa-chevron-circle-right"></i> Bunga Menurun</span>
+                            <p align="justify">
+                                Kami menyediakan layanan pinjaman dengan suku bunga menurun <b>1,5%</b> per bulan. Bunga menurun adalah perhitungan suku bunga yang nominalnya semakin kecil tiap periodenya.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#"><i class="fa fa-check-square-o"></i> Simulasi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text" style="height:280px;">
+                            <span class="card-title"><i class="fa fa-chevron-circle-right"></i> Anuitas</span>
+                            <p align="justify">
+                            Kami menyediakan layanan pinjaman dengan suku bunga anuitas <b>1,2%</b> per bulan. Bunga anuitas adalah modifikasi dari perhitungan kredit bunga efektif. Modifikasi ini dilakukan untuk mempermudah nasabah dalam membayar per bulannya, karena angsuran tiap bulannya sama.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#"><i class="fa fa-check-square-o"></i> Simulasi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <?php include("./template/footer.php"); ?>
 
-  </div>
+<?php include("./template/footer.php"); ?>
+  <!--  Scripts-->
+  <script src="asset/jquery-2.2.3.min.js"></script>
+  <script src="asset/materialize/js/materialize.js"></script>
 
-
-</body>
-
-
+  </body>
 </html>
