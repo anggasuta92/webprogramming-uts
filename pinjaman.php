@@ -25,6 +25,17 @@
                 </nav>
             </div>
             <div class="row">
+                <div class="col s12 m12">
+                    <div class="card-panel teal">
+                        <span class="white-text">
+                            <b>Syarat dalam pengajuan kredit</b><br/>
+                            Mengisi formulir aplikasi. Fotokopi identitas diri (KTP, SIM, atau paspor). Fotokopi akta nikah (bagi yang sudah menikah).
+                            Fotokopi kartu keluarga (KK). Fotokopi buku tabungan beberapa bulan terakhir.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col s12 m4">
                     <div class="card blue-grey darken-1">
                         <div class="card-content white-text" style="height:280px;">
@@ -47,7 +58,7 @@
                             </p>
                         </div>
                         <div class="card-action">
-                            <a href="#"><i class="fa fa-check-square-o"></i> Simulasi</a>
+                            <a href="./pinjaman-menurun.php"><i class="fa fa-check-square-o"></i> Simulasi</a>
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@
                         <div class="col s12">
                             <a href="#!" class=""><i class="fa fa-book"></i> <b>Pinjaman</b></a>
                             <i class="fa fa-angle-double-right"></i>
-                            <a href="" class=""><b>Simulasi Suku Bunga Tetap</b></a>
+                            <a href="" class=""><b>Simulasi Suku Bunga Menurun / Efektif</b></a>
                         </div>
                     </div>
                 </nav>
@@ -60,14 +60,13 @@
 
         if($plafon!=0 && $jangka_waktu!=0 && $bunga_tahun!=0){
             $angsuran = $plafon / $jangka_waktu;
-            $bunga_angsuran = $angsuran * $bunga_tahun / 100 / 12;
         
 ?>
             <div class="row">
                 <div class="col s12 m12" align="center">
                     <b>
                         SIMULASI ANGSURAN KREDIT<br>
-                        BUNGA TETAP<br>
+                        BUNGA MENURUN /EFEKTIF<br>
                         Plafon Kredit : <?php echo number_format($plafon,2); ?> - Jangka Waktu : <?php echo $jangka_waktu; ?> Bulan<br/>
                         Suku Bunga : <?php echo $bunga_tahun; ?>% pa.
                     </b>
@@ -92,6 +91,7 @@
                     <?php
                         if($i>0){
                             $saldo = $saldo - $angsuran;
+                            $bunga_angsuran = $saldo * $bunga_tahun / 100 / 12;
                         }
                     ?>
                         <tr>
