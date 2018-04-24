@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-		<title>Bank</title>
-		
-        <link rel="stylesheet" href="asset/css/bootstrap.min.css" rel="stylesheet"  type="text/css">
-		<link rel="stylesheet" href="asset/general.css" rel="stylesheet"  type="text/css">
-        <script src="asset/jquery.min.js"></script>
-        <script src="asset/js/bootstrap.min.js"></script>
-    </head>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <?php include("./template/title.php"); ?>
 
-
+  <!-- CSS  -->
+  <link href="./asset/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./asset/fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 <body>
 
-  <div class="container">
-
     <?php include("./template/navbar.php"); ?>
-    <?php include("./template/header.php"); ?>
 
 
-    <div class="row-fluid">
-      ini tabungan...
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="card-panel teal">
+                        <span class="white-text">
+                            <b>Syarat dalam pengajuan kredit</b><br/>
+                            Mengisi formulir aplikasi. Fotokopi identitas diri (KTP, SIM, atau paspor). Fotokopi akta nikah (bagi yang sudah menikah).
+                            Fotokopi kartu keluarga (KK). Fotokopi buku tabungan beberapa bulan terakhir.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
-    <?php include("./template/footer.php"); ?>
 
-  </div>
+<?php include("./template/footer.php"); ?>
+  <!--  Scripts-->
+  <script src="asset/jquery-2.2.3.min.js"></script>
+  <script src="asset/materialize/js/materialize.js"></script>
 
-
-</body>
-
-
+  </body>
 </html>

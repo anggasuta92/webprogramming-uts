@@ -71,7 +71,7 @@
                             </p>
                         </div>
                         <div class="card-action">
-                            <a href="#"><i class="fa fa-check-square-o"></i> Simulasi</a>
+                            <a href="./pinjaman-anuitas.php"><i class="fa fa-check-square-o"></i> Simulasi</a>
                         </div>
                     </div>
                 </div>

@@ -46,7 +46,7 @@
                             <button class="btn waves-effect waves-light" type="submit" name="btn_submit">
                                 <i class="fa fa-paper-plane"> Hitung</i>
                             </button>
-                            <a href="./pinjaman-tetap.php" class="btn waves-effect waves-light"><i class="fa fa-close"> Reset</i></a>
+                            <a href="./pinjaman-anuitas.php" class="btn waves-effect waves-light"><i class="fa fa-close"> Reset</i></a>
                         </div>
                     </div>
                 </form>
@@ -86,12 +86,17 @@
                     </thead>
 
                     <tbody>
-                    <?php $saldo = $plafon; ?>
+                    <?php
+                        $saldo = $plafon;
+                        //                plafon *bunga       /100/12*1/(1-(1/((1+bunga       /100/12)^waktu)))
+                        $total_angsuran = $plafon*$bunga_tahun/100/12*1/(1-(1/(pow((1+$bunga_tahun/100/12),$jangka_waktu))));
+                    ?>
                     <?php for($i=0; $i<=$jangka_waktu; $i++){ ?>
                     <?php
                         if($i>0){
-                            $saldo = $saldo - $angsuran;
                             $bunga_angsuran = $saldo * $bunga_tahun / 100 / 12;
+                            $angsuran = $total_angsuran - $bunga_angsuran;
+                            $saldo = $saldo - $angsuran;
                         }
                     ?>
                         <tr>

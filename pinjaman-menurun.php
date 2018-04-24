@@ -46,7 +46,7 @@
                             <button class="btn waves-effect waves-light" type="submit" name="btn_submit">
                                 <i class="fa fa-paper-plane"> Hitung</i>
                             </button>
-                            <a href="./pinjaman-tetap.php" class="btn waves-effect waves-light"><i class="fa fa-close"> Reset</i></a>
+                            <a href="./pinjaman-menurun.php" class="btn waves-effect waves-light"><i class="fa fa-close"> Reset</i></a>
                         </div>
                     </div>
                 </form>
