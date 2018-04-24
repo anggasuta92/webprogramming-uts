@@ -1,13 +1,21 @@
 <?php
+    session_start();
+
     $komens = array(
         "Peter"=>"Selamat dan sukses untuk Bank KU!", 
         "Ben"=>"Kredit saya cepat cair. Terima kasih Bank KU!", 
         "Joe"=>"Saya akhirnya bisa nyicil rumah berkat pinjaman dari Bank KU!. Sukses!!!"
     );
+    
+    if(!isset($_SESSION['kom'])){
+        $_SESSION['kom'] = $komens;
+    }
+
     if(isset($_POST['txt_nama'])){
         $nama = $_POST["txt_nama"];
-        $koemntar = $_POST["txt_komen"];
-        $komens[$nama] = $koemntar;
+        $komentar = $_POST["txt_komen"];
+        //$komens[$nama] = $komentar;
+        $_SESSION['kom'][$nama] = $komentar;
     }
 ?>
 
@@ -50,12 +58,11 @@
                 </div>
                 <div class="col s12 m8">
                     <form method="post" action="">
-
                         <ul class="collection with-header">
                             <li class="collection-header"><h4>Silahkan tinggalkan pesan</h4></li>
-
                             <li class="collection-item">
                             <?php
+                                if(isset($_SESSION['kom'])) $komens =$_SESSION['kom'];
                                 foreach($komens as $pengirim => $pesan){
                             ?>
                                 <div class="row">

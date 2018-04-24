@@ -19,7 +19,7 @@
 <div class="row">
 	<div class="col s12 m6">
 		<div class="card">
-			<div class="card-image" style="height:250;">
+			<div class="card-image" style="height:280;">
 				<img src="images/tab.jpg">
 				<span class="card-title" style="color:black;"><b>Tabungan</b></span>
 			</div>
@@ -32,7 +32,7 @@
 	</div>
 	<div class="col s12 m6">
 		<div class="card">
-			<div class="card-image" style="height:250px;">
+			<div class="card-image" style="height:280px;">
 				<img src="images/deposit.jpg">
 				<span class="card-title" style="color:black;"><b>Deposito</b></span>
 			</div>
