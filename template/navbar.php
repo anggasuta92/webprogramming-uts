@@ -1,7 +1,7 @@
 <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="./" class="brand-logo"><i class="fa fa-american-sign-language-interpreting"></i><b>Bank KU!</b></a>
+    <div class="nav-wrapper container"><a id="logo-container" href="./" class="brand-logo"><b><i class="fa fa-bug"></i>Bank KU!</b></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="./tabungan.php" >Tabungan</a></li>
+        <li><a href="./tabungan.php" >Simpanan</a></li>
         <li><a href="./pinjaman.php">Pinjaman</a></li>
         <li><a href="./tentang.php">Tentang Kami</a></li>
       </ul>
